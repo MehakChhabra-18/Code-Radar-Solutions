@@ -7,4 +7,5 @@ int main()
     print("Even");
     else
     print("Odd");
+    return 0;
 }
