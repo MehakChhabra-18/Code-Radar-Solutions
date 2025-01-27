@@ -1,8 +1,10 @@
 #include <stdio.h>
 int main()
 {
-    int a;
+    int a,complement;
     scanf("%d",&a);
-    printf("%u",~a);
-    return 0;
+   complement =~a;
+   printf("%d",complement);
+   return 0;
+
 }
