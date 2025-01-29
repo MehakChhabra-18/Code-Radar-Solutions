@@ -22,6 +22,7 @@ int main()
         default:
         printf("Error");
         break;
-        return 0;
+      
     }
+    return 0;
 }
