@@ -3,6 +3,8 @@ int main()
 {
     int a;
     scanf("%d",&a);
+    if (a>=1 && a<=12)
+    {
     switch(a)
     {
         case 1: case 3: case 5: case 7: case 8: case 10: case 12:
@@ -14,10 +16,10 @@ int main()
         case 2:
         printf("28");
         break;
-        default:
-        printf("Invalid");
-        break;
         
-    }
+        
+    }}
+    else
+    printf("Invalid Month");
     return 0;
 }
