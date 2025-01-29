@@ -3,9 +3,9 @@ int main()
 {
     int a,b;
     scanf("%d%d",&a,&b);
-    char c;
-    scanf("%c",&c);
-    switch(c)
+    char w;
+    scanf("%c",&w);
+    switch(w)
     {
         case '+':
         printf("%d",a+b);
