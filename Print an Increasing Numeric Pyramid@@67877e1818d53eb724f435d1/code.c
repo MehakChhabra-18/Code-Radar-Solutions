@@ -13,7 +13,10 @@ int main()
         for (k=1;k<=i;k++)
         {
             printf("%d ",k);
+
         }
-        return 0;
+        printf("\n");
+     
     }
+    return 0;
 }
