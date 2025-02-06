@@ -11,7 +11,7 @@ int main()
             printf(" ");
         }
 
-        for (k=1;k>=n;k--)
+        for (k=n;k<=n;k--)
         {
             printf("%d",k);
         }
