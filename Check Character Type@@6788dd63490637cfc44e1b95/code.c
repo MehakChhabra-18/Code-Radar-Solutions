@@ -6,13 +6,13 @@ int main()
     if ((a>='a' && a<='z')||(a>='A' && a<='Z'))
     {
         if (a=='a'|| a=='e'||a=='i'||a=='o'||a=='u'||a=='A'||a=='E'||a=='I'||a=='O'||a=='U')
-        printf("Vowel\n");
+    {printf("Vowel\n");}
         else
-        printf("Consonant\n");
+       { printf("Consonant\n");}
         else if (a>='0' && a<='9')
-        printf("Digit\n");
+       { printf("Digit\n");}
         else
-        printf("Special Character");
+        {printf("Special Character");}
     }
     return 0;
 }
