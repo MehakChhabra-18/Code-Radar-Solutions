@@ -2,10 +2,10 @@
 int main()
 {
     int a,b;
-    char w;
+    char c;
     scanf("%d%d",&a,&b);
-    scanf("%c",&w);
-    switch(w)
+    scanf("%c",&c);
+    switch(c)
     {
         case '+':
         printf("%d\n",a+b);
