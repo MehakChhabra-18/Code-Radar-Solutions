@@ -6,7 +6,7 @@ int main()
     int nsp=n/2;
     int nst=1;
     int ml=n/2+1;
-    for (i=1;i<=n;i++)
+    for (i=1;i<=2*n;i++)
     {
         for (j=1;j<=nsp;j++)
         {
