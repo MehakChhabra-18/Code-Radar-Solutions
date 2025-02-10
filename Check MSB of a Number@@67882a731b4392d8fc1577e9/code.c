@@ -2,7 +2,10 @@
 int main() {
     int a;
     scanf("%d",&a);
-    int c=~a;
-    printf("%d", c);
+    if(a&1){
+        printf("Set\n");
+    }else{
+        printf("Not Set\n");
+    }
     return 0;
 }
